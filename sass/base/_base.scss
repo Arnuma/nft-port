@@ -1,0 +1,64 @@
+.container {
+    max-width: 1360px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+header {
+    margin-top: 48px;
+}
+body {
+    background: url(/img/bg/bg_0.5.png), linear-gradient(174.14deg, #1D0A2D 0%, #061033 101.06%);
+}
+.active-buttons {
+    background: linear-gradient(83.53deg, #43E97B 0%, #43E97B 0.01%, #38F9D7 103.96%);
+    border-radius: 0px 0px 20px 20px;
+    color: black;
+    padding: .5em 1em;
+}
+
+.nav-link:hover {
+    background: linear-gradient(83.53deg, #43E97B 0%, #43E97B 0.01%, #38F9D7 103.96%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+}
+.active {
+    background: linear-gradient(83.53deg, #43E97B 0%, #43E97B 0.01%, #38F9D7 103.96%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+}
+.main-buttons:not(:last-child) {
+    margin-right: 20px;
+}
+.main-buttons_link {
+    // padding: 15px 30px;
+    padding: .5em 1em;
+    border-radius: 0px 0px 20px 20px;
+    border: 2px solid #36B374;
+    }
+
+.title-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(90.34deg, #121B41 -1.08%, rgba(18, 27, 65, 0) 101.85%);
+    border-radius: 20px;
+    width: 1329px;
+    height: 134px;
+    margin-top: 158px;
+    h2 {
+        font-size: 40px;
+    font-weight: 700;
+    line-height: 64px;
+    padding: 35px 35px;
+    span {
+        color: #FFEF1B;
+    }
+    }
+}
+

@@ -1,0 +1,34 @@
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .nav-logo {
+        a {
+            span {
+                font-size: 50px;
+                font-weight: 700;
+                background: linear-gradient(83.53deg, #43E97B 0%, #43E97B 0.01%, #38F9D7 103.96%);
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+                background-clip: text;
+                color: transparent;
+            }
+        }
+    }
+    .navigation-list {
+        display: flex;
+        ul {
+            display: flex;
+        }
+        li:not(:last-child) {
+            margin-right: 40px;
+        }
+        li:last-child {
+            margin-right: 95px;
+        }
+        a {
+            font-size: 20px;
+            font-weight: 500;
+        }
+    }
+}

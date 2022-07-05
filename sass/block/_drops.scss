@@ -1,0 +1,92 @@
+.drops-nav {
+    margin-top: 60px;
+    ul {
+        display: flex;
+        justify-content: space-between;
+    }
+}
+.drop-list {
+    padding-top: 54px;
+    ul {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        li {
+        width: 310px;
+        height: 471px;
+        padding: 30px;
+        border-radius: 20px 20px 0px 0px;
+        border: 1px solid;
+        border-image-source: linear-gradient(163.32deg, rgba(67, 233, 123, 0.6) 0.01%, #170C2E 65.3%);
+        border-image-slice: 1;
+        }
+    }
+}
+.bit {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    p {
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 21px;
+        opacity: .6;
+    }
+}
+.bit-left {
+    display: flex;
+    position: relative;
+    img {
+        width: 18px;
+        height: 18px;
+    }
+    .avatar-2 {
+        position: absolute;
+        width: 18px;
+        height: 18px;
+        left: 9px;
+    }
+    .avatar-3 {
+        z-index: 2;
+    }
+    p {
+        margin-left: 9px;
+    }
+}
+.text {
+    h2 {
+        font-weight: 900;
+        font-size: 20px;
+    }
+    p {
+        font-weight: 500;
+        font-size: 16px;
+        opacity: .6;
+    }
+}
+.stat {
+    display: flex;
+    justify-content: space-between;
+}
+.stat-left {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    background: linear-gradient(83.53deg, #43E97B 0%, #43E97B 0.01%, #38F9D7 103.96%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    opacity: .6;
+}
+.stat-right {
+    p {
+        padding-left: 10px;
+    }
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    opacity: .6;
+}

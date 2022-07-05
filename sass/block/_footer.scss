@@ -1,0 +1,17 @@
+.title-link {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    a {
+        display: flex;
+        text-align: center;
+        font-weight: 500;
+        font-size: 20px;
+    }
+}
+.active-seller-button {
+    background: linear-gradient(83.53deg, #43E97B 0%, #43E97B 0.01%, #38F9D7 103.96%);
+    border-radius: 6px;
+    color: black;
+    padding: .5em 1em;
+}

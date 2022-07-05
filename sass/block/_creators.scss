@@ -1,0 +1,50 @@
+
+.creators_list {
+    padding-top: 40px;
+    ul {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        li {
+            margin-bottom: 30px;
+            display: flex;
+            align-items: center;
+            padding: 30px;
+            border-radius: 8px;
+            background: #160C2E;
+            background-image: url(/img/creators/border.png);
+            background-size: 100% 100%;
+            background-repeat: no-repeat;
+            width: 311px;
+            height: 140px;
+            z-index: 3;
+        }
+    }
+}
+.block-avatar {
+    position: relative;
+    margin-right: 15px;
+    z-index: 4;
+    .gal {
+        position: absolute;
+        left: 65px;
+        top: 10px;
+    }
+}
+.creator-description {
+    .creator-name {
+        font-weight: 700;
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+    .creator-summ {
+        font-weight: 500;
+        font-size: 16px;
+        opacity: .6;
+    }
+}
+
+
+
+
+
